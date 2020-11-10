@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepublish": "tsc",
+    "postinstall": "tsc",
     "test": "jest"
   },
   "repository": {

@@ -80,7 +80,7 @@ export default async function ({
     if (cliOptions.relative) {
       return path.join(base, cliOptions.outDir, filename);
     }
-    return path.join(cliOptions.outDir, filename);
+    return path.join(cliOptions.outDir, base, filename);
   }
 
   async function handleFile(src: string, base: string) {
