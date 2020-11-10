@@ -1,5 +1,5 @@
 {
-  "name": "@swc/cli",
+  "name": "@ghondar/cli",
   "version": "0.1.27",
   "description": "CLI for the swc project",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swc-project/cli.git"
+    "url": "git+https://github.com/ghondar/cli.git"
   },
   "keywords": [
     "swc",
@@ -21,12 +21,12 @@
     "compiler",
     "javascript"
   ],
-  "author": "강동윤 <kdy1997.dev@gmail.com>",
+  "author": "Anthony Bryan Gavilan Vinces <abgv9221@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/swc-project/cli/issues"
+    "url": "https://github.com/ghondar/cli/issues"
   },
-  "homepage": "https://github.com/swc-project/cli#readme",
+  "homepage": "https://github.com/ghondar/cli#readme",
   "peerDependencies": {
     "@swc/core": "^1.2.4"
   },
